@@ -8,17 +8,17 @@
 }
 
 table {
-  color: #111;
+  color: #254BC4;
   border-radius: 5px;
   overflow: hidden;
   margin: 12px 0;
   min-width: 300px;
-  background: #dad8d8;
+  background: #1CD8BE;
 }
 
 .header-row {
-    background: #34495E;
-    color: #fff
+    background: #254BC4;
+    color: rgb(255, 255, 255);
 }
 
 th, td {
@@ -26,3 +26,7 @@ th, td {
     margin: 5px 10px;
     padding: 6px;
 }
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
